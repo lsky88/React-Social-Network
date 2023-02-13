@@ -1,11 +1,13 @@
+// Imports =================================================================
 import css from './Profile.module.css'
 import MyPosts from "./MyPosts/MyPosts";
 
+// Profile Component =========================================================
 const Profile = () => {
-    return <main className={css.profile}>
+    return <section className={css.profile}>
         Ava + Description
         <MyPosts/>
-    </main>
+    </section>
 }
 
 export default Profile

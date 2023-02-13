@@ -1,6 +1,8 @@
+// Imports =================================================================
 import css from './MyPosts.module.css'
 import Post from "./Post/Post";
 
+// My Posts Component ========================================================
 const MyPosts = () => {
     return <section className={css.myPosts}>
         My Posts

@@ -1,5 +1,7 @@
+// Imports =================================================================
 import css from './Post.module.css'
 
+// Post Component ============================================================
 const Post = (props) => {
     return <section className={css.post}>
         <img src="" alt=""/>

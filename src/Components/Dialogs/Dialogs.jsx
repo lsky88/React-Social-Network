@@ -1,8 +1,10 @@
-import css from './Messages.module.css'
+// Imports =================================================================
+import css from './Dialogs.module.css'
 
-const Messages = () => {
-  return <section className={css.dialogs}>
-      Dialogs
-  </section>
+// Dialogs Component ========================================================
+const Dialogs = () => {
+    return <section className={css.dialogs}>
+        Dialogs
+    </section>
 }
-export default Messages
+export default Dialogs
