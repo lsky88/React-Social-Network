@@ -1,0 +1,22 @@
+/*Header Module CSS*/
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+}
+
+.headerLogo {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #68E066;
+    border-radius: 4px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.headerLogo p {
+    margin: 0 auto;
+}

@@ -1,0 +1,7 @@
+/*Navigation Module CSS*/
+
+.navigation {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+}
