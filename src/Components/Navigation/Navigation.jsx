@@ -2,11 +2,11 @@ import css from './Navigation.module.css'
 
 const Navigation = () => {
     return <nav className={css.navigation}>
-        <a href="#">Profile</a>
-        <a href="#">News</a>
-        <a href="#">Messages</a>
-        <a href="#">Music</a>
-        <a href="#">Settings</a>
+        <a href="src/Components/Navigation/Navigation#">Profile</a>
+        <a href="src/Components/Navigation/Navigation#">News</a>
+        <a href="src/Components/Navigation/Navigation#">Messages</a>
+        <a href="src/Components/Navigation/Navigation#">Music</a>
+        <a href="src/Components/Navigation/Navigation#">Settings</a>
     </nav>
 }
 export default Navigation

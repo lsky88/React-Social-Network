@@ -1,12 +1,10 @@
 import css from './Profile.module.css'
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return <main className={css.profile}>
         Ava + Description
-        My Posts
-        New Posts
-        Post 1
-        Post 2
+        <MyPosts/>
     </main>
 }
 
