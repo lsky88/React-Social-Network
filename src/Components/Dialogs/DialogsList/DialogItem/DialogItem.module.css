@@ -1,0 +1,14 @@
+/*Dialog Item Module CSS*/
+.dialogItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.dialogItem img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid cornflowerblue;
+    margin-right: 10px;
+}
