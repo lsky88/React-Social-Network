@@ -18,3 +18,7 @@ a {
     grid-template-areas: 'header header' 'nav content';
     background: #111;
 }
+
+.app-content {
+    grid-area: content;
+}

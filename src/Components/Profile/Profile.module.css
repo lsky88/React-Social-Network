@@ -1,8 +1,5 @@
 /*Profile Module CSS*/
 
 .profile {
-    grid-area: content;
-    display: flex;
-    flex-direction: column;
     color: cornflowerblue;
 }
