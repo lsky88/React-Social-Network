@@ -2,6 +2,19 @@
 
 .navigation {
     grid-area: nav;
+    padding: 10px;
+}
+
+.navList {
     display: flex;
     flex-direction: column;
+    text-align: left;
+}
+
+.navItem {
+    margin-bottom: 5px;
+}
+
+.navLink:hover {
+    color: cornflowerblue;
 }

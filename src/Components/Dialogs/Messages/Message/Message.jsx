@@ -2,9 +2,9 @@
 import css from './Message.module.css'
 
 // Message Component ==========================================================
-const Message = () => {
+const Message = (props) => {
   return <div className={css.message}>
-      <p>Lorem ipsum dolor.</p>
+      <p>{props.message}</p>
   </div>
 }
 export default Message

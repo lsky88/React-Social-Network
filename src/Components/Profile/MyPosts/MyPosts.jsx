@@ -1,15 +1,16 @@
 // Imports =================================================================
 import css from './MyPosts.module.css'
 import Post from "./Post/Post";
+import NewPost from "./NewPost/NewPost";
 
 // My Posts Component ========================================================
 const MyPosts = () => {
     return <section className={css.myPosts}>
-        My Posts
-        New Post
-        <Post message={"hi"} likesCount={1}/>
-        <Post message={"hello"} likesCount={2}/>
-        <Post message={"what's up"} likesCount={3}/>
+        <h2>My Posts</h2>
+        <Post message={`Lorem ipsum dolor sit amet.`} likesCount={1}/>
+        <Post message={`Lorem ipsum dolor.`} likesCount={2}/>
+        <Post message={`Lorem ipsum dolor sit amet, consectetur adipisicing elit.`} likesCount={3}/>
+        <NewPost/>
     </section>
 }
 

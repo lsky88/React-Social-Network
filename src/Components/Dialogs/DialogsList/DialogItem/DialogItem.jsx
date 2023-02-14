@@ -1,11 +1,14 @@
 // Imports =================================================================
 import css from './DialogItem.module.css'
+import {NavLink} from "react-router-dom";
 
 // Dialog Item Component ======================================================
 const DialogItem = (props) => {
-  return <div className={css.dialogItem}>
+    let path = `/dialogs/${props.id}`
+    
+  return <NavLink to={path} className={css.dialogItem}>
       <img src="" alt=""/>
       <p>{props.name}</p>
-  </div>
+  </NavLink>
 }
 export default DialogItem;

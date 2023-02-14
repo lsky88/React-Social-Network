@@ -1,10 +1,10 @@
-/*New Message Module CSS*/
-.newMessage {
+/*New Post Module CSS*/
+.newPost {
     display: flex;
-    bottom: 0;
+    margin-top: 10px;
 }
 
-.newMessage textarea {
+.newPost textarea {
     resize: none;
     border: 1px solid cornflowerblue;
     border-radius: 5px;
@@ -16,7 +16,7 @@
     padding: 5px;
 }
 
-.newMessage button {
+.newPost button {
     border: 1px solid cornflowerblue;
     border-radius: 5px;
     background: transparent;

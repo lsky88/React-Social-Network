@@ -6,8 +6,9 @@ import NewMessage from "./NewMessage/NewMessage";
 // Messages Component =========================================================
 const Messages = () => {
   return <section className={css.messages}>
-      <Message />
-      <Message />
+      <Message message={`Hi`} />
+      <Message message={`Hello`}/>
+      <Message message={`Yo`}/>
       <NewMessage/>
   </section>
 }

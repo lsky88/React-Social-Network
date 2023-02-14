@@ -1,4 +1,10 @@
 /*My Posts Module CSS*/
 .myPosts {
-    color: yellow;
+    padding: 10px;
+    background: #222;
+    border-radius: 10px;
+}
+.myPosts h2 {
+    margin-bottom: 10px;
+    text-align: center;
 }
