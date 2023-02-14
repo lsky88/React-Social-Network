@@ -1,5 +1,14 @@
 /*Message Module CSS*/
 .message {
-    padding: 10px;
+    display: flex;
+    align-items: center;
     margin-bottom: 5px;
+}
+
+.message img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid cornflowerblue;
+    margin-right: 5px;
 }
