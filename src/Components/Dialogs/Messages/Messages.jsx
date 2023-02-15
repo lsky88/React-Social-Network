@@ -4,15 +4,9 @@ import css from "./Messages.module.css"
 import NewMessage from "./NewMessage/NewMessage";
 
 // Messages Component =========================================================
-const Messages = () => {
+const Messages = (props) => {
 
-    let messagesData = [
-        {id: 1, message: 'Hello'},
-        {id: 2, message: 'Yo'},
-        {id: 3, message: 'Hi'},
-    ]
-
-    let messagesElements = messagesData.map(message => <Message id={message.id}
+    let messagesElements = props.messagesData.map(message => <Message id={message.id}
                                                                 message={message.message}/>)
 
     return <section className={css.messages}>

@@ -4,10 +4,10 @@ import MyPosts from "./MyPosts/MyPosts";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 // Profile Component =========================================================
-const Profile = () => {
+const Profile = (props) => {
     return <section className={css.profile}>
         <ProfileInfo/>
-        <MyPosts/>
+        <MyPosts postsData={props.postsData}/>
     </section>
 }
 

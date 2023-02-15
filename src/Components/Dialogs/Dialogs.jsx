@@ -4,10 +4,10 @@ import DialogsList from "./DialogsList/DialogsList";
 import Messages from "./Messages/Messages";
 
 // Dialogs Component ========================================================
-const Dialogs = () => {
+const Dialogs = (props) => {
     return <section className={css.dialogs}>
-        <DialogsList/>
-        <Messages />
+        <DialogsList dialogsListData={props.dialogsListData}/>
+        <Messages messagesData={props.messagesData}/>
     </section>
 }
 export default Dialogs
