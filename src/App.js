@@ -4,12 +4,11 @@ import Header from "./Components/Header/Header";
 import Navigation from "./Components/Navigation/Navigation";
 import Profile from "./Components/Profile/Profile";
 import Dialogs from "./Components/Dialogs/Dialogs";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 
 // App =================================================================
 function App(props) {
     return (
-        <Router>
             <div className="App">
                 <Header/>
                 <Navigation/>
@@ -17,14 +16,12 @@ function App(props) {
                     <Routes>
                         <Route path='/profile'
                                element={<Profile
-                                   postsData={props.postsData}/>}/>
+                                   profile={props.state.profile}/>}/>
                         <Route path='/dialogs' element={<Dialogs
-                            dialogsListData={props.dialogsListData}
-                            messagesData={props.messagesData}/>}/>
+                            dialogs={props.state.dialogs}/>}/>
                     </Routes>
                 </main>
             </div>
-        </Router>
     );
 }
 

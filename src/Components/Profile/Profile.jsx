@@ -7,7 +7,7 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
 const Profile = (props) => {
     return <section className={css.profile}>
         <ProfileInfo/>
-        <MyPosts postsData={props.postsData}/>
+        <MyPosts postsData={props.profile.postsData}/>
     </section>
 }
 
