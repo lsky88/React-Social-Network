@@ -8,3 +8,30 @@
     margin-bottom: 10px;
     text-align: center;
 }
+
+.newPost {
+    display: flex;
+    margin-top: 10px;
+}
+
+.newPost textarea {
+    resize: none;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    margin-right: 5px;
+    background: transparent;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+.newPost button {
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    background: transparent;
+    padding: 5px;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+}

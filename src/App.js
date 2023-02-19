@@ -9,19 +9,21 @@ import {Routes, Route} from "react-router-dom";
 // App =================================================================
 function App(props) {
     return (
-            <div className="App">
-                <Header/>
-                <Navigation/>
-                <main className="app-content">
-                    <Routes>
-                        <Route path='/profile'
-                               element={<Profile
-                                   profile={props.state.profile}/>}/>
-                        <Route path='/dialogs' element={<Dialogs
-                            dialogs={props.state.dialogs}/>}/>
-                    </Routes>
-                </main>
-            </div>
+        <div className="App">
+            <Header/>
+            <Navigation/>
+            <main className="app-content">
+                <Routes>
+                    <Route path='/profile'
+                           element={<Profile
+                               profile={props.state.profile}
+                               addPost={props.addPost}
+                               updateNewPostText={props.updateNewPostText}/>}/>
+                    <Route path='/dialogs' element={<Dialogs
+                        dialogs={props.state.dialogs}/>}/>
+                </Routes>
+            </main>
+        </div>
     );
 }
 
